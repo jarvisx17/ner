@@ -8,7 +8,7 @@ from utils import trim_entity_spans, convert_goldparse, ResumeDataset, tag2idx, 
 
 
 parser = argparse.ArgumentParser(description='Train Bert-NER')
-parser.add_argument('-e', type=int, default=5, help='number of epochs')
+parser.add_argument('-e', type=int, default=10, help='number of epochs')
 parser.add_argument('-o', type=str, default='.',
                     help='output path to save model state')
 
